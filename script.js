@@ -229,7 +229,7 @@ function renderThemes() {
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         position: relative;
       ">
-        <img src="${theme.image}" alt="${themeTitles[key] || key}" style="width:60px; height:60px; object-fit:cover; border-radius:8px;"/>
+        <img src="${theme.image}" alt="${themeTitles[key] || key}" style="width:50px; height:50px; object-fit:cover; border-radius:5px;"/>
         <span style="flex-grow:1;">${themeTitles[key] || key}</span>
         ${score !== undefined ? `<span style="font-weight:bold; color:#28a745;">Score : ${score}/${theme.questions.length}</span>` : ''}
       </button>
