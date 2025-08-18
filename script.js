@@ -64,7 +64,7 @@ const themes = {
             "Une zone géographique plate où l’eau stagne naturellement "],
         answer: 2,
         info: "Un bassin versant est une zone délimitée naturellement par des lignes de crête où toutes les eaux de pluie, de ruissellement et des rivières convergent vers un même exutoire (chez nous plutôt des rivières, des ruisseaux, des lacs). C’est une unité hydrologique essentielle pour la gestion de l’eau. Sans eau, il ne peut pas y avoir de vie ! Et notre santé dépend de la qualité de l’eau que nous consommons. C’est pourquoi il est essentiel de préserver les bassins versants des rivières, des ruisseaux ou des lacs de toute pollution que nous pourrions introduire y compris accidentellement ou de tout frein à leur approvisionnement.",
-        image: "assets/bassin-v.jpg"
+        image: "assets/ceret.jpg"
       },
       {
         question: "Quels sont pour vous les lacs alimentant en eau potable les communes de la Communauté de Communes Carmausin-Ségala ?",
@@ -76,7 +76,7 @@ const themes = {
             "Le bassin de Cap Découverte"],
         answers: [0,3,4],
         info: "Le territoire de la Communauté de Communes Carmausin-Ségala a la chance d’être doté de 3 bassins réservoirs pour l’alimentation en eau potable autour des barrages de la Roucarié, de Thuries et de Fontbonne. Tous 3 alimentent en eau potable 16537 abonnés. La rivière « Le Céret » alimente les réservoirs de Fontbonne et de la Roucarié et la rivière « Viaur ».celui de Thuriès. L'enjeu pour les années à venir consiste à préserver ces espaces de captage, véritables réservoirs de biodiversité animale et végétale, des nuisances et pollutions pour assurer une alimentation en eau potable pour tous.",
-        image: "assets/bassin-v.jpg"
+        image: "assets/roucarie.jpg"
       },
       
     ]
@@ -98,7 +98,7 @@ const themes = {
             "Les lumières nocturnes "],
         answers: [0,3,4],
         info: "Les continuités écologiques sont constituées à la fois de réservoirs de biodiversité qui assurent aux espèces la possibilité de réaliser tout ou partie de leur cycle de vie, mais également de corridors écologiques qui permettent aux espèces de se déplacer entre ces réservoirs. L’urbanisation (constructions), les infrastructures de transport comme les routes ou encore la pollution lumineuse ou sonore réduisent la surface des espaces naturels ..[texte]",
-        image: "assets/biodiversité.jpg"
+        image: "assets/autoroute.jpg"
       },
       {
         question: "Quels rôles peut jouer la haie champêtre ?",
@@ -109,7 +109,7 @@ const themes = {
             "Hulk dans le prochain Avengers "],
         answers: [0,1,3],
         info: "Les haies champêtres composées d’essences locales (cornouillers sanguin, pruneliers, aubépines, chênes ,….) sont de « véritables couteaux-suisse » aux services de l’environnement et de l’agriculture. Elles limitent l’érosion et protègent les sols. Elles filtrent l’eau et limitent l’augmentation des températures. Elles sont également un refuge pour les animaux qui pourront y trouver le gîte et le couvert. Elles participent aussi à la qualité du paysage et peuvent être une ressource en bois, en fruits, en fleurs pour les pollinisateurs dont les abeilles domestiques productrices de miel. Depuis ces dernières années, de nombreuses exploitations agricoles ou communes se sont lancées dans des actions de replantation.",
-        image: "assets/biodiversité.jpg"
+        image: "assets/haie.jpg"
       },
       
     ]
@@ -134,7 +134,7 @@ const themes = {
             "Les lacs du Lévézou  "],
         answers: [0,2,4,6],
         info: "Le territoire de la Communauté de Communes Carmausin-Ségala est composé d’une grande biodiversité qui varie en fonction des unités paysagères qui constituent des supports de vie et d’habitats variés. En effet, il abrite 4 grandes unités paysagères, socle de son patrimoine vivant  : au nord et à l’est, on trouve la biodiversité liée aux vallées, plateaux et bocages du Ségala, avec celle de la vallée escarpée du Viaur. Sur son centre, l’unité paysagère urbaine de l’ancien bassin minier. Et enfin au sud-ouest, le plateau calcaire relié au Cordais et l’extrême limite du vignoble du gaillacois. Le maintien de ces 4 ensembles paysagers, de ses habitats, de sa vie et des interactions entre ses écosystèmes représente un des futurs grands enjeux forts de préservation patrimoniale pour le territoire du Carmausin-Ségala.",
-        image: "assets/environnement.jpg"
+        image: "assets/segala.png"
       },
       {
         question: "Pépites de ses richesses patrimoniales vivantes qui ont façonnées depuis des décennies ses paysages, pourriez-vous nous citer les formations boisées les plus remarquables et imposantes du territoire Carmausin-Ségala ?",
@@ -145,7 +145,7 @@ const themes = {
             "Les boisements majoritaires de chênes ("],
         answers: [0,1,4],
         info: "Le territoire du Carmausin-Ségala est constitué de plusieurs sortes de formations boisées. Les plus importantes sont celles de feuillus mixtes, de chênes et de châtaigniers (surtout sur sa partie nord). Aujourd’hui, le changement climatique et l’appauvrissement de la biodiversité végétale fait peser de fortes menaces sur la préservation du patrimoine boisé. Avec la déprise agricole, les châtaigneraies, patrimoine fruitier et paysager du Ségala, se délitent. C’est tout un pan de notre histoire vivante qui disparait. C’est pourquoi l’association Aveyron Conservatoire Régional du Châtaignier propose aux propriétaires intéressés de les aider à rénover leurs châtaigniers en apportant un appui technique.",
-        image: "assets/environnement.jpg"
+        image: "assets/chataigne.jpg"
       },
       
     ]
@@ -167,7 +167,7 @@ const themes = {
              "Seules les abeilles domestiques pollinisent les fleurs"],
         answer: 2,
         info: "À l’origine, toutes les abeilles sont sauvages. Une colonie d’abeilles peut s’installer partout. Certaines d’entre elles, abeilles domestiques, sont élevées par l’Homme depuis plusieurs milliers d’années pour leur capacité à produire notamment du miel. Les abeilles domestiques sont des insectes sociaux qui vivent en colonies à la principale différence des abeilles sauvages, pour la plupart solitaires. Il existe plus de 1 000 variétés d’abeilles en France, toutes gravement menacées avec un taux d’extinction « 100 à 1000 fois plus élevé que la normale ». Capables de butiner le pollen de 250 fleurs par heure en stockant, sur une seule patte, environ 500 000 grains de pollen, l'abeille est un des premiers insectes pollinisateurs qui aide bon nombre de végétaux à se reproduire .C’est un maillon essentiel dans le maintien de la biodiversité et de la production alimentaire sur un territoire",
-        image: "assets/abeille.jpg"
+        image: "assets/abeilless.jpg"
       },
       {
         question: "Quels sont les principaux prédateurs des abeilles sur le territoire du Carmausin-ségala ?",
@@ -179,7 +179,7 @@ const themes = {
             "L’ours"],
         answers: [0,1,2,3,4],
         info: "Les abeilles sont comme toutes les espèces vivantes touchées par les effets du changement climatique et tentent de lutter pour leur survie. Par le transport des marchandises, l’homme a introduit des espèces comme le frelon asiatique, doté d’un très gros appétit en se nourrissant voracement d’abeilles. Le varroa, originaire de l’Asie du sud-est, espèce d'acariens parasites de l'abeille adulte ainsi que des larves et des nymphes, représente également un danger. L’abeille peut aussi contracter des maladies comme la loque américaine, terriblement contagieuse entre ruches. Mais malheureusement le danger le plus terrible pour les abeilles vient de l’Homme au travers de ses pratiques quotidiennes : utilisation d’engrais, de pesticides, course à la construction et à la bétonnisation au détriment des espaces naturels, agricoles ou forestiers... [texte]",
-        image: "assets/abeille.jpg"
+        image: "assets/frelon.webp"
       },
       
     ]
