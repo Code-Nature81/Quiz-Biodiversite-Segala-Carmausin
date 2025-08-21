@@ -194,7 +194,7 @@ function fadeToContent(callback) {
 
 function renderHome() {
   app.innerHTML = `
-    <div style="display:flex; flex-direction:column; align-items:center; gap:20px; text-align:center; max-width:600px; margin:auto; padding:20px;">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:15px; text-align:center; max-width:600px; margin:auto;padding:10px; margin-top:10px;">
       
       <!-- Premier logo -->
       <img src="assets/Logo ATLAS BIODIVERSITE Carmausin-Ségala.png" alt="Logo 1" style="width:220px; height:auto;">
@@ -203,10 +203,10 @@ function renderHome() {
       <img src="assets/logo (2).png" alt="Logo 2" style="width:100px; height:auto;">
       
       <!-- Texte d’accueil -->
-      <h1>Bienvenue au quiz biodiversité</h1>
-      <p style="font-size:18px; color:#333;">
+       <h1 style="margin:10px 0;">Bienvenue au quiz biodiversité</h1>
+      <p style="font-size:16px; color:#333; margin:0 0 15px 0;">
         Découvrez les thématiques liées à la biodiversité du Carmausin-Ségala 
-        à travers des quiz ludiques et interactifs !
+        à travers des quiz ludiques et interactifs 
       </p>
       
       <!-- Bouton -->
