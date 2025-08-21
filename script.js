@@ -17,7 +17,7 @@ const themes = {
     image: 'assets/lake-7107210_1280.jpg',
     intro: {
       text: "Les 31 communes du territoire Carmausin-Ségala se sont lancées à l’échelle intercommunale dans la création d’un atlas de la biodiversité.<br>Atlas et biodiversité, 2 mots complexes !<br><br> D’ailleurs, pourquoi mener cette démarche alors que partout autour de nous la nature est présente ?",
-      image: 'assets/carte.png'
+      image: 'assets/carte.jpg'
     },
     questions: [
       {
@@ -31,7 +31,7 @@ const themes = {
         ],
         answers: [1, 2],
         info: "La biodiversité désigne l’ensemble des êtres vivants (plantes, animaux, micro-organismes) ainsi que les écosystèmes dans lesquels ils vivent et interagissent. Aujourd’hui, le constat est sans appel, la biodiversité est en chute libre...",
-        image: "assets/lake-7107210_1280.jpg"
+        image: "assets/papillon.jpg"
       },
       {
         question: "Quel est l’objectif principal d’un atlas de la biodiversité sur un territoire intercommunal comme le Carmausin-Ségala?",
@@ -75,7 +75,7 @@ const themes = {
             "Le Barrage de Fontbonne",
             "Le bassin de Cap Découverte"],
         answers: [0,3,4],
-        info: "Le territoire de la Communauté de Communes Carmausin-Ségala a la chance d’être doté de 3 bassins réservoirs pour l’alimentation en eau potable autour des barrages de la Roucarié, de Thuries et de Fontbonne. Tous 3 alimentent en eau potable 16537 abonnés. La rivière « Le Céret » alimente les réservoirs de Fontbonne et de la Roucarié et la rivière « Viaur ».celui de Thuriès. L'enjeu pour les années à venir consiste à préserver ces espaces de captage, véritables réservoirs de biodiversité animale et végétale, des nuisances et pollutions pour assurer une alimentation en eau potable pour tous.",
+        info: "Le territoire de la Communauté de Communes Carmausin-Ségala a la chance d’être doté de 3 bassins réservoirs pour l’alimentation en eau potable autour des barrages de la Roucarié, de Thuries et de Fontbonne. Tous 3 alimentent en eau potable 16537 abonnés. La rivière « Le Céret » alimente les réservoirs de Fontbonne et de la Roucarié et la rivière « Viaur » celui de Thuriès. L'enjeu pour les années à venir consiste à préserver ces espaces de captage, véritables réservoirs de biodiversité animale et végétale, des nuisances et pollutions pour assurer une alimentation en eau potable pour tous.",
         image: "assets/roucarie.jpg"
       },
       
@@ -86,7 +86,7 @@ const themes = {
     image: 'assets/biodiversité.jpg',
     intro: {
       text: "Comme pour l’Homme, les espèces végétales ou animales ont des besoins vitaux à satisfaire comme se nourrir ou se reproduire. Pour cela, ils doivent pouvoir se déplacer sur un territoire vital à leur espèce qui peut avoir plusieurs échelles. Le maintien ou la restauration des continuités écologiques (connectivités ou connexions) permettent de répondre à ces besoins. Testez vos connaissances au travers de 2 questions",
-      image: 'assets/biodiversité.jpg'
+      image: 'assets/bocage.jpg'
     },
     questions: [
       {
@@ -134,7 +134,7 @@ const themes = {
             "Les lacs du Lévézou  "],
         answers: [0,2,4,6],
         info: "Le territoire de la Communauté de Communes Carmausin-Ségala est composé d’une grande biodiversité qui varie en fonction des unités paysagères qui constituent des supports de vie et d’habitats variés. En effet, il abrite 4 grandes unités paysagères, socle de son patrimoine vivant  : au nord et à l’est, on trouve la biodiversité liée aux vallées, plateaux et bocages du Ségala, avec celle de la vallée escarpée du Viaur. Sur son centre, l’unité paysagère urbaine de l’ancien bassin minier. Et enfin au sud-ouest, le plateau calcaire relié au Cordais et l’extrême limite du vignoble du gaillacois. Le maintien de ces 4 ensembles paysagers, de ses habitats, de sa vie et des interactions entre ses écosystèmes représente un des futurs grands enjeux forts de préservation patrimoniale pour le territoire du Carmausin-Ségala.",
-        image: "assets/segala.png"
+        image: "assets/segala.jpg"
       },
       {
         question: "Pépites de ses richesses patrimoniales vivantes qui ont façonnées depuis des décennies ses paysages, pourriez-vous nous citer les formations boisées les plus remarquables et imposantes du territoire Carmausin-Ségala ?",
@@ -142,7 +142,7 @@ const themes = {
            "Les boisements de feuillus mixtes( charmes, chênes, érables, frênes, hêtres …) ",
             "Les boisements de purs conifères (pins, sapins, épicéas, cèdres…)  ", 
             "Les boisements de purs peupliers",
-            "Les boisements majoritaires de chênes ("],
+            "Les boisements majoritaires de chênes"],
         answers: [0,1,4],
         info: "Le territoire du Carmausin-Ségala est constitué de plusieurs sortes de formations boisées. Les plus importantes sont celles de feuillus mixtes, de chênes et de châtaigniers (surtout sur sa partie nord). Aujourd’hui, le changement climatique et l’appauvrissement de la biodiversité végétale fait peser de fortes menaces sur la préservation du patrimoine boisé. Avec la déprise agricole, les châtaigneraies, patrimoine fruitier et paysager du Ségala, se délitent. C’est tout un pan de notre histoire vivante qui disparait. C’est pourquoi l’association Aveyron Conservatoire Régional du Châtaignier propose aux propriétaires intéressés de les aider à rénover leurs châtaigniers en apportant un appui technique.",
         image: "assets/chataigne.jpg"
@@ -179,7 +179,7 @@ const themes = {
             "L’ours"],
         answers: [0,1,2,3,4],
         info: "Les abeilles sont comme toutes les espèces vivantes touchées par les effets du changement climatique et tentent de lutter pour leur survie. Par le transport des marchandises, l’homme a introduit des espèces comme le frelon asiatique, doté d’un très gros appétit en se nourrissant voracement d’abeilles. Le varroa, originaire de l’Asie du sud-est, espèce d'acariens parasites de l'abeille adulte ainsi que des larves et des nymphes, représente également un danger. L’abeille peut aussi contracter des maladies comme la loque américaine, terriblement contagieuse entre ruches. Mais malheureusement le danger le plus terrible pour les abeilles vient de l’Homme au travers de ses pratiques quotidiennes : utilisation d’engrais, de pesticides, course à la construction et à la bétonnisation au détriment des espaces naturels, agricoles ou forestiers...C’est pourquoi il est important de mesurer l’impact de nos consommations ; de nos constructions, de nos aménagements avant toute décision en tentant d’éviter, réduire ou compenser l’impact de nos actes.",
-        image: "assets/frelon.webp"
+        image: "assets/frelon.jpg"
       },
       
     ]
@@ -193,21 +193,50 @@ function fadeToContent(callback) {
 
 
 function renderHome() {
-  fadeToContent(() => {
-    app.innerHTML = `
-      <header class="header">
-        <img src="assets/Logo ATLAS BIODIVERSITE Carmausin-Ségala.png" alt="Logo Communauté" class="header-logo">
-        <img src="assets/Office-Francais-de-la-Biodiversite-OFB_large.png" alt="Logo Communauté" class="header-logo">
-        <img src="assets/logo (2).png" alt="Logo perso" class="header-logo1">
-      </header>
+  app.innerHTML = `
+    <div style="display:flex; flex-direction:column; align-items:center; gap:20px; text-align:center; max-width:600px; margin:auto; padding:20px;">
+      
+      <!-- Premier logo -->
+      <img src="assets/Logo ATLAS BIODIVERSITE Carmausin-Ségala.png" alt="Logo 1" style="width:220px; height:auto;">
+      
+      <!-- Deuxième logo -->
+      <img src="assets/logo (2).png" alt="Logo 2" style="width:100px; height:auto;">
+      
+      <!-- Texte d’accueil -->
+      <h1>Bienvenue au quiz biodiversité</h1>
+      <p style="font-size:18px; color:#333;">
+        Découvrez les thématiques liées à la biodiversité du Carmausin-Ségala 
+        à travers des quiz ludiques et interactifs !
+      </p>
+      
+      <!-- Bouton -->
+      <button onclick="renderThemes()" style="
+        padding:12px 24px;
+        font-size:18px;
+        border:none;
+        border-radius:8px;
+        background:#216408ff;
+        color:white;
+        cursor:pointer;
+        box-shadow:0 2px 5px rgba(0,0,0,0.2);
+        transition: background 0.3s;
+      
+      " 
+      >
+        Commencer
+      </button>
 
-      <div class="home-screen">
-        <h1 class="quiz-title">Quiz de la biodiversité</h1>
-        <button class="start-btn" onclick="renderThemes()">Commencer</button>
-      </div>
-    `;
-  });
+      <!-- 4eme logo -->
+      <img src="assets/carmausin-segala.png" alt="Logo 2" style="width:80px; height:auto;">
+      
+      <!-- Dernier logo en bas -->
+      <img src="assets/Office-Francais-de-la-Biodiversite-OFB_large.png" alt="Logo 3" style="width:220px; height:auto; margin-top:30px;">
+
+  
+    </div>
+  `;
 }
+
 
 function renderThemes() {
   let html = '<h2>Choisissez un thème :</h2><div class="themes-container" style="display:flex; flex-direction:column; gap:20px; max-width:400px; margin-top:15%;">';
